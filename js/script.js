@@ -54,3 +54,38 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 
 
 // Remember to delete the comments that came with this file, and replace them with your own code comments.
+
+var quotes = [
+  {
+    quote: "You wanna fly, you got to give up the shit that weighs you down.",
+    source: "Toni Morrison",
+    citation: "Song of Solomon",
+    tags: "burdens, empowerment, flying, freedom, unburdening, weight"
+  },
+  {
+    quote: "f you don’t like something, change it. If you can’t change it, change your attitude.",
+    source: "Maya Angelou"
+  },
+  {
+    quote: "Every individual matters. Every individual has a role to play. Every individual makes a difference.",
+    source: "Jane Goodall",
+    citation: "With Love",
+    year: 1999
+  },
+  {
+    quote: "I wish that every human life might be pure transparent freedom.",
+    source: "Simone de Beauvoir",
+    citation: "The Blood of Others",
+    year: 1946,
+    tags: "human life, freedom"
+  },
+  {
+    quote: "Most socipolitical hierarchies lack a logical or biological basis - they are nothing but the perpetuation of chance events supported by myths.",
+    source: "Yuval Noah Harari",
+    citation: "Sapiens",
+    tags: "history, sociopolitical hierarchies, myths"
+  },
+
+
+
+];
